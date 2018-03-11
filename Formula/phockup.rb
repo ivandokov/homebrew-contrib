@@ -8,7 +8,8 @@ class Phockup < Formula
   depends_on "python3"
 
   def install
-    bin.install "phockup.py" => "phockup"
+    prefix.install Dir["*"]
+    bin.install_symlink prefix/"phockup.py" => "phockup"
   end
 
   test do
