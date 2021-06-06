@@ -1,8 +1,8 @@
 class Phockup < Formula
   desc "Organize photos and videos in folders by year, month and day."
   homepage "https://github.com/ivandokov/phockup"
-  url "https://github.com/ivandokov/phockup/archive/1.6.1.tar.gz"
-  sha256 "64a5777057e40da62f5b858c4c0dc3cd4d3db53c0c58adc01579b8d9a7a5d5b3"
+  url "https://github.com/ivandokov/phockup/archive/1.6.2.tar.gz"
+  sha256 "426cb56c229d250782bc35a2b2ce062e112f434de1dca5587f975a59bb3b8e7d"
 
   depends_on "exiftool"
   depends_on "python3"
