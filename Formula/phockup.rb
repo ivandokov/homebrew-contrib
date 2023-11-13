@@ -11,7 +11,7 @@ class Phockup < Formula
 
   resource "tqdm" do
     url "https://files.pythonhosted.org/packages/62/06/d5604a70d160f6a6ca5fd2ba25597c24abd5c5ca5f437263d177ac242308/tqdm-4.66.1.tar.gz"
-    sha256 "e5020d639087a3768027cdb9a6e8529e7f69ee4384e98226ae947d45a4a8a4ba"
+    sha256 "d88e651f9db8d8551a62556d3cff9e3034274ca5d66e93197cf2490e2dcb69c7"
   end
 
   def python3
