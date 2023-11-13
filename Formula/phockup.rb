@@ -3,15 +3,15 @@ class Phockup < Formula
 
   desc "Organize photos and videos in folders by year, month and day."
   homepage "https://github.com/ivandokov/phockup"
-  url "https://github.com/ivandokov/phockup/archive/1.10.1.tar.gz"
-  sha256 "ae627d2638e5b8942d794ba23a382de214d5482c1fd4922949445d755b299379"
+  url "https://github.com/ivandokov/phockup/archive/1.11.0.tar.gz"
+  sha256 "4aa378e312d18f17b59f64768c5c1a2b1d28041f4ef3c13d9cde67730d3ca34d"
 
   depends_on "exiftool"
   depends_on "python3"
 
   resource "tqdm" do
     url "https://files.pythonhosted.org/packages/62/06/d5604a70d160f6a6ca5fd2ba25597c24abd5c5ca5f437263d177ac242308/tqdm-4.66.1.tar.gz"
-    sha256 "d88e651f9db8d8551a62556d3cff9e3034274ca5d66e93197cf2490e2dcb69c7"
+    sha256 "4aa378e312d18f17b59f64768c5c1a2b1d28041f4ef3c13d9cde67730d3ca34d"
   end
 
   def python3
